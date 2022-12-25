@@ -1,0 +1,12 @@
+pip install virtualenv
+cd into the directory of your choice
+virtualenv venv
+venv\Scripts\activate
+
+
+creating a new virtual environment from a requirements.txt file
+pip install -f requirements.txt
+
+
+Upgrading python
+python3 -m venv --upgrade ENV_DIR

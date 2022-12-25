@@ -1,0 +1,11 @@
+CREATION
+python3 -m venv legal.env
+
+ACTIVATION legal tester
+source legal.env/bin/activate
+cd search-app/codes
+uvicorn server:app --reload --port 9092 --host 0.0.0.0 --workers 4
+
+ACTIVATION FAST-API 
+uvicorn main:app --reload
+
